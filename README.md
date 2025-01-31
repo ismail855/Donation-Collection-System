@@ -28,9 +28,8 @@ Request :
 }
 
 Response: 
-
 {
-    "accessToken": 	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9................."
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9................."
 }
 ```
 
