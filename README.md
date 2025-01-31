@@ -1,4 +1,18 @@
 # Donation-Collection-System
+
+Environment Varriable For Backend
+```bash
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_USER=
+DATABASE_PASSWORD=
+DATABASE_NAME=
+JWT_SECRET=
+JWT_EXPIRES_IN=
+FRONTEND_URL=
+```
+
+
 ```bash
 /auth/login, POST
 Request : 
@@ -47,7 +61,7 @@ Response:
     "message": "For Skill"
 }
 ```
-## Without Post All the Donation API need Authentication (Without Post Method)
+Without Post All the Donation API need Authentication (Without Post Method)
 
 ```bash
 /donations/:id, PATCH
