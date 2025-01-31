@@ -10,7 +10,7 @@ Request Example :
 Response: 
 
 {
-"accessToken": 	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haW		wuY29tIiwic3ViIjo5LCJyb2xlIjoidXNlciIsImlhdCI6MTczODMyNjU4OCwiZXhwIjoxNzM4MzMwMTg4fQ.KQ_ALplHz636tALMaoTig3CfZs7eHqbpsQXCUAVfHoc"
+    "accessToken": 	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haW		wuY29tIiwic3ViIjo5LCJyb2xlIjoidXNlciIsImlhdCI6MTczODMyNjU4OCwiZXhwIjoxNzM4MzMwMTg4fQ.KQ_ALplHz636tALMaoTig3CfZs7eHqbpsQXCUAVfHoc"
 }
 
 
