@@ -1,6 +1,7 @@
 # Donation-Collection-System
+```bash
 /auth/login, POST
-Request Example : 
+Request : 
 
 {
     "email": "user@gmail.com",
@@ -12,11 +13,11 @@ Response:
 {
     "accessToken": 	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9................."
 }
+```
 
-
-
+```bash
 /users, POST
-Request Example: 
+Request : 
 {
     
     "email": "test@gmail.com",
@@ -24,8 +25,8 @@ Request Example:
     "mobileNumber": "01305889899",
     "role": "user"
 }
-
-
+```
+```bash
 /users/admin, POST
 {
     
@@ -34,8 +35,10 @@ Request Example:
     "mobileNumber": "01305889009",
     "role": "admin"
 }
-
+```
+```bash
 /donations, POST
+Response: 
 {
     
     "donorName": "Jihad",
@@ -43,27 +46,29 @@ Request Example:
     "mobileNumber": "01805889009",
     "message": "For Skill"
 }
+```
+## Without Post All the Donation API need Authentication (Without Post Method)
 
-Without Post All the Donation API need Authentication 
-/ /donations/1
-{
-  "amount": 2000
-}
-
+```bash
 /donations/:id, PATCH
-
+Request : 
 {
     "amount": 5000
 }
-/donations/:id, DELETE
+```
 
+```bash
+/donations/:id, DELETE
+```
+```bash
 /donations/report/summary, GET
 
 {
     "totalDonors": 5,
     "totalAmount": 11000
 }
-
+```
+```bash
 /donations/report/donors, GET (If any donars donate multiple time then donation will be marged)
 
 [
@@ -93,7 +98,8 @@ Without Post All the Donation API need Authentication
         "totalAmount": 2000
     }
 ]
-
+```
+```bash
 All donation Data 
 /donations/history, GET
 [
@@ -143,6 +149,7 @@ All donation Data
         "deletedAt": null
     }
 ]
+```
 
 
 
