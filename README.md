@@ -12,6 +12,7 @@ JWT_EXPIRES_IN=
 FRONTEND_URL=
 ```
 
+API Documents
 
 ```bash
 /auth/login, POST
