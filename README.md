@@ -11,6 +11,10 @@ JWT_SECRET=
 JWT_EXPIRES_IN=
 FRONTEND_URL=
 ```
+Environment Varriable For Frontend
+```bash
+NEXT_PUBLIC_API_URL = server url
+```
 
 API Documents
 
