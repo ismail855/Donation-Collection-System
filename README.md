@@ -57,7 +57,9 @@ http://localhost:9000/donations/1
 /donations/:id, DELETE
 
 /donations/report/summary, GET
+
 /donations/report/donors, GET
+
 /donations/history, GET
 
 
