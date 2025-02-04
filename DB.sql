@@ -51,5 +51,5 @@ INSERT INTO "public"."donation" ("id","donorName","amount","mobileNumber","messa
 
 INSERT INTO "public"."user" ("id","email","mobileNumber","password","role") VALUES 
 (5,'admin@gmail.com',1305685855,'$2a$10$AhSZhBPVndnL2833waEbHe.G1TOMY8ryGNPTvE.Guku6Jp/PadCTu','admin'),
-(9,'user@gmail.com',1658422222,'$2a$10$rgOtM.L58TR4pB6aBQro.e1zaCrg52Ox2x9dohXdD/S1gOTif7zOW','user');
+(9,'test@gmail.com',1658422222,'$2a$10$rgOtM.L58TR4pB6aBQro.e1zaCrg52Ox2x9dohXdD/S1gOTif7zOW','user');
 
